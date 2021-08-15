@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss",
+    "heybourn.headwind",
+    "formulahendry.auto-complete-tag",
+    "pkief.material-icon-theme",
+    "yzhang.markdown-all-in-one"
+  ]
+}

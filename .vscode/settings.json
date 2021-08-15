@@ -1,0 +1,48 @@
+{
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  // Add Emmet support for PostCSS
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+
+  // Enable TailwindCSS IntelliSense to work in <style> blocks in .vue files
+  "tailwindCSS.includeLanguages": {
+    "vue": "html",
+    "vue-html": "html"
+  },
+
+  // Format TailwindCSS classes on save
+  "headwind.runOnSave": true,
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.codeActionsOnSave": {
+    // Run ESLint on save
+    "source.fixAll.eslint": true
+  },
+
+  // Tell ESLint to run on Vue files
+  "eslint.validate": ["javascript", "typescript", "vue"],
+
+  // Volar
+  "volar.codeLens.scriptSetupTools": false, // Hide ref sugar toggler
+  "volar.codeLens.pugTools": false, // Hide pug toggler
+  "volar.tsPlugin": true, // Always enable Volar's TS plugin to support .vue prop types validation
+
+  // Disable Vetur to use Volar
+  "vetur.validation.template": false, // Disable Vetur's template formatting to avoid conflicts with ESLint
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "vetur.format.enable": false,
+  "vetur.completion.autoImport": false,
+  "vetur.underline.refValue": false,
+  "vetur.validation.interpolation": false,
+  "vetur.trace.server": "off",
+  "vetur.languageFeatures.codeActions": false,
+  "vetur.languageFeatures.updateImportOnFileMove": false,
+  "vetur.languageFeatures.semanticTokens": false
+}
